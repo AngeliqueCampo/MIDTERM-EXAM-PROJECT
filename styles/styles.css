@@ -1,0 +1,81 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333; /* Dark border */
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%; 
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.register-link, .login-link {
+    margin-top: 15px;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+}
